@@ -1,0 +1,42 @@
+// color variables
+$primary-color: #E95D25
+$secondary-color: #767777
+$dark-color: #282c34
+$bg-color: #fafafa
+$white: #fff
+$blue: #2559e9
+
+
+// desclaring classes
+=display-flex
+  display: flex
+  align-items: center 
+  justify-content: space-between
+
+=display-column
+  display: flex
+  flex-direction: column
+
+=display-grid
+  display: grid
+  grid-column-gap: 10px
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+
+// ---------------- default styles ---------------
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box 
+  font-family: Roboto, sans-serif
+
+h1, h2, h3, h4, h5, h6, p
+  margin-bottom: 0 !important
+
+#root
+  height: 100vh
+  // .App
+  //   +display-column
+  //   height: 100%
+  //   overflow: hidden
+  //   justify-content: space-between
